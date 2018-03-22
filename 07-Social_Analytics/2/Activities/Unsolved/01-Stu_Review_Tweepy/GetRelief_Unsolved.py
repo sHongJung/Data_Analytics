@@ -1,12 +1,13 @@
 # Dependencies
 import tweepy
+import twitter_api as ta
 import json
 
 # Twitter API Keys
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = ta.consumer_key
+consumer_secret = ta.consumer_secret
+access_token = ta.access_token
+access_token_secret = ta.access_token_secret
 
 # Setup Tweepy API Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
