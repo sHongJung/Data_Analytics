@@ -1,0 +1,1001 @@
+City_ID,City,Country,Temperature (F),Latitude,Longitude,Humidity (%),Cloudiness (%),Wind Speed (mph)
+0,sao felix do xingu,br,,,,,,
+1,dikson,ru,7.1,73.51,80.55,100,64,20.49
+2,taolanaro,mg,,,,,,
+3,itaituba,br,71.9,-4.26,-55.99,100,32,1.14
+4,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+5,krasnoselkup,ru,,,,,,
+6,norman wells,ca,,,,,,
+7,eskasem,af,,,,,,
+8,dondo,mz,75.2,-19.62,34.74,88,20,13
+9,esna,eg,47.33,45.2,27.57,76,56,6.85
+10,nizhniy kuranakh,ru,,,,,,
+11,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+12,brae,gb,42.8,60.4,-1.35,100,92,17.22
+13,saint-philippe,re,30.15,45.36,-73.48,83,90,8.05
+14,maglaj,ba,55.4,44.55,18.1,93,20,3.36
+15,souillac,mu,49.01,45.6,-0.6,93,0,3.36
+16,selaphum,th,86,16.03,103.94,58,20,10.29
+17,airai,pw,82.16,-8.93,125.41,69,44,2.04
+18,port alfred,za,,,,,,
+19,souillac,mu,49.01,45.6,-0.6,93,0,3.36
+20,lata,sb,55.7,30.78,78.62,66,88,1.92
+21,cabo san lucas,mx,,,,,,
+22,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+23,arraial do cabo,br,,,,,,
+24,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+25,bethel,us,37.4,60.79,-161.76,100,90,3.36
+26,naryan-mar,ru,10.52,67.67,53.09,80,0,13.44
+27,dhekiajuli,in,68.57,26.71,92.48,70,0,2.59
+28,high level,ca,,,,,,
+29,port blair,in,,,,,,
+30,darnah,ly,73.16,32.77,22.64,73,92,13.67
+31,torbay,ca,28.4,47.66,-52.73,74,75,23.04
+32,saskylakh,ru,16.46,71.97,114.09,86,0,8.63
+33,natal,br,75.2,-5.81,-35.21,100,75,3.36
+34,kodinar,in,83.33,20.79,70.7,49,0,4.5
+35,fayetteville,us,33.8,36.06,-94.16,64,1,6.93
+36,inta,ru,15.2,66.04,60.13,70,68,6.51
+37,buritis,br,68.48,-15.62,-46.42,88,44,5.5
+38,hay river,ca,,,,,,
+39,punta arenas,cl,,,,,,
+40,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+41,bredasdorp,za,66.2,-34.53,20.04,82,0,10.29
+42,tessalit,ml,57.14,20.2,1.01,19,0,8.97
+43,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+44,barbar,sd,,,,,,
+45,solnechnyy,ru,50.93,50.72,136.64,51,0,3.6
+46,kerki,tm,,,,,,
+47,nacala,mz,79.55,-14.56,40.69,100,0,11.43
+48,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+49,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+50,castro,cl,59.12,-42.48,-73.76,90,88,9.31
+51,castro,cl,59.12,-42.48,-73.76,90,88,9.31
+52,albany,au,30.09,42.65,-73.75,98,90,8.41
+53,puerto ayora,ec,,,,,,
+54,bethel,us,37.4,60.79,-161.76,100,90,3.36
+55,quang ngai,vn,,,,,,
+56,valparaiso,cl,34.05,41.47,-87.06,100,90,12.75
+57,castro,cl,59.12,-42.48,-73.76,90,88,9.31
+58,chokurdakh,ru,10.97,70.62,147.9,100,24,11.1
+59,bredasdorp,za,66.2,-34.53,20.04,82,0,10.29
+60,kruisfontein,za,62.18,-34,24.73,84,0,13.56
+61,victor harbor,au,,,,,,
+62,manitouwadge,ca,23.3,49.12,-85.84,60,92,11.77
+63,saint george,bm,,,,,,
+64,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+65,saint anthony,ca,,,,,,
+66,mocambique,mz,,,,,,
+67,sistranda,no,44.6,63.73,8.83,52,0,17.22
+68,longyearbyen,sj,24.8,78.22,15.63,85,75,5.82
+69,obo,cf,72.71,5.39,26.49,73,56,7.18
+70,lompoc,us,53.06,34.64,-120.46,87,75,3.36
+71,punta arenas,cl,,,,,,
+72,pisco,pe,68,-13.71,-76.2,82,0,10.29
+73,mackay,au,33.78,53.65,-115.58,69,90,3.36
+74,sao filipe,cv,,,,,,
+75,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+76,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+77,taburi,ph,,,,,,
+78,vestmannaeyjar,is,44.99,63.44,-20.27,87,88,27.54
+79,plovdiv,bg,48.2,42.14,24.75,87,64,5.82
+80,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+81,lasa,cn,63.81,34.92,32.53,51,0,10.29
+82,hermanus,za,48.5,-34.42,19.24,89,0,3.83
+83,ponta do sol,cv,,,,,,
+84,kamenskoye,ru,,,,,,
+85,busselton,au,71.81,-33.64,115.35,87,48,13.56
+86,arraial do cabo,br,,,,,,
+87,jamestown,sh,64.07,-33.21,138.6,78,92,10.76
+88,do rud,ir,30.77,33.5,49.05,93,24,2.15
+89,barentsburg,sj,,,,,,
+90,acapulco,mx,80.6,16.86,-99.88,83,5,5.82
+91,narsaq,gl,26.6,60.91,-46.05,35,5,5.82
+92,clyde river,ca,,,,,,
+93,tahe,cn,56.33,52.34,124.71,33,0,4.16
+94,yellowknife,ca,17.6,62.45,-114.38,67,90,12.75
+95,port alfred,za,,,,,,
+96,port alfred,za,,,,,,
+97,tasiilaq,gl,35.6,65.61,-37.64,80,92,17.22
+98,mocuba,mz,70.1,-16.84,36.99,99,92,5.61
+99,morondava,mg,73.25,-20.3,44.28,100,8,4.05
+100,kijang,id,62.6,35.24,129.21,48,0,8.05
+101,barcelona,ph,53.6,41.38,2.18,76,20,3.36
+102,kosh-agach,ru,39.23,49.99,88.66,55,36,2.26
+103,albany,au,30.09,42.65,-73.75,98,90,8.41
+104,sola,vu,30.2,62.78,29.36,68,0,4.7
+105,hilo,us,75.2,19.71,-155.08,88,75,6.93
+106,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+107,sechura,pe,69.74,-5.56,-80.82,84,0,8.41
+108,lixourion,gr,64.18,38.2,20.43,82,75,12.75
+109,qaanaaq,gl,-4.52,77.48,-69.36,79,36,8.3
+110,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+111,san quintin,mx,,,,,,
+112,qandala,so,69.92,11.47,49.87,100,0,2.93
+113,nome,us,48.13,30.04,-94.42,62,1,6.73
+114,iqaluit,ca,5,63.75,-68.52,77,5,3.36
+115,barentsburg,sj,,,,,,
+116,san patricio,mx,,,,,,
+117,hermanus,za,48.5,-34.42,19.24,89,0,3.83
+118,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+119,jacareacanga,br,72.89,-6.22,-57.76,98,76,2.04
+120,barreiras,br,71.18,-12.14,-45,86,80,3.71
+121,cape town,za,,,,,,
+122,avarua,ck,77,-21.21,-159.78,69,20,11.41
+123,khatanga,ru,10.25,71.98,102.47,93,24,10.2
+124,dikson,ru,7.1,73.51,80.55,100,64,20.49
+125,hajnowka,pl,54.62,52.74,23.58,71,12,7.18
+126,pavlodar,kz,44.6,52.28,76.96,52,75,11.18
+127,nome,us,48.13,30.04,-94.42,62,1,6.73
+128,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+129,barentsburg,sj,,,,,,
+130,tiksi,ru,22.85,71.64,128.87,92,92,13.78
+131,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+132,cape town,za,,,,,,
+133,mogadishu,so,80.6,2.04,45.34,94,75,5.82
+134,cape town,za,,,,,,
+135,heihe,cn,62.6,50.24,127.51,9,0,15.66
+136,yellowknife,ca,17.6,62.45,-114.38,67,90,12.75
+137,sentyabrskiy,ru,,,,,,
+138,oksfjord,no,29.35,70.24,22.35,79,44,2.24
+139,busselton,au,71.81,-33.64,115.35,87,48,13.56
+140,busselton,au,71.81,-33.64,115.35,87,48,13.56
+141,chuy,uy,67.13,-33.69,-53.46,83,8,13.11
+142,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+143,muscat,om,84.2,23.6,58.55,51,0,8.05
+144,port elizabeth,za,,,,,,
+145,poum,nc,45.8,41.28,20.71,68,20,2.04
+146,kaitangata,nz,56.6,-46.28,169.85,60,0,24.29
+147,luino,it,47.61,46,8.74,100,0,1.12
+148,saskylakh,ru,16.46,71.97,114.09,86,0,8.63
+149,hermanus,za,48.5,-34.42,19.24,89,0,3.83
+150,bereda,so,44.6,43.27,-7.54,93,0,6.93
+151,thompson,ca,30.2,55.74,-97.86,30,20,3.36
+152,vaini,to,77.12,15.34,74.49,81,8,2.26
+153,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+154,punta arenas,cl,,,,,,
+155,taolanaro,mg,,,,,,
+156,punta arenas,cl,,,,,,
+157,luanda,ao,77,-8.83,13.24,94,40,2.24
+158,bethel,us,37.4,60.79,-161.76,100,90,3.36
+159,lorengau,pg,85.4,-2.02,147.27,96,8,9.08
+160,lebu,cl,50.93,8.96,38.73,92,24,2.48
+161,menzelinsk,ru,35.6,55.73,53.11,59,0,6.71
+162,port alfred,za,,,,,,
+163,albany,au,30.09,42.65,-73.75,98,90,8.41
+164,illoqqortoormiut,gl,,,,,,
+165,albany,au,30.09,42.65,-73.75,98,90,8.41
+166,puerto ayora,ec,,,,,,
+167,jamestown,sh,64.07,-33.21,138.6,78,92,10.76
+168,qaanaaq,gl,-4.52,77.48,-69.36,79,36,8.3
+169,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+170,tuatapere,nz,52.55,-46.13,167.69,100,8,17.92
+171,turukhansk,ru,21.23,65.8,87.96,97,76,7.52
+172,puerto ayora,ec,,,,,,
+173,busselton,au,71.81,-33.64,115.35,87,48,13.56
+174,port blair,in,,,,,,
+175,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+176,tessalit,ml,57.14,20.2,1.01,19,0,8.97
+177,illoqqortoormiut,gl,,,,,,
+178,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+179,teknaf,bd,90.35,20.86,92.31,54,0,3.27
+180,namwala,zm,61.73,-15.75,26.45,93,0,4.38
+181,pangody,ru,10.88,65.85,74.49,97,68,10.42
+182,saskylakh,ru,16.46,71.97,114.09,86,0,8.63
+183,iqaluit,ca,5,63.75,-68.52,77,5,3.36
+184,saint-philippe,re,30.15,45.36,-73.48,83,90,8.05
+185,longyearbyen,sj,24.8,78.22,15.63,85,75,5.82
+186,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+187,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+188,georgetown,sh,77,6.8,-58.16,94,75,2.24
+189,puerto ayora,ec,,,,,,
+190,chuy,uy,67.13,-33.69,-53.46,83,8,13.11
+191,punta arenas,cl,,,,,,
+192,saint-philippe,re,30.15,45.36,-73.48,83,90,8.05
+193,northam,au,46.4,51.04,-4.21,87,92,10.29
+194,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+195,hermanus,za,48.5,-34.42,19.24,89,0,3.83
+196,vaini,to,77.12,15.34,74.49,81,8,2.26
+197,oktyabrskiy,ru,38.32,55.61,37.97,80,0,2.24
+198,port alfred,za,,,,,,
+199,xingcheng,cn,72.71,40.62,120.71,26,0,13.89
+200,laguna de perlas,ni,,,,,,
+201,salalah,om,80.6,17.01,54.1,83,40,3.36
+202,hermanus,za,48.5,-34.42,19.24,89,0,3.83
+203,hobart,au,53.6,-42.88,147.33,40,40,19.46
+204,kyaiklat,mm,89.6,16.44,95.73,62,40,5.82
+205,hilo,us,75.2,19.71,-155.08,88,75,6.93
+206,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+207,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+208,guerrero negro,mx,,,,,,
+209,puerto ayora,ec,,,,,,
+210,lamar,us,46.4,38.09,-102.62,39,1,9.17
+211,omboue,ga,81.98,-1.57,9.26,100,100,2.93
+212,albany,au,30.09,42.65,-73.75,98,90,8.41
+213,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+214,tuktoyaktuk,ca,5.32,69.44,-133.03,77,20,10.29
+215,caravelas,br,80,-17.73,-39.27,100,80,11.1
+216,vaini,to,77.12,15.34,74.49,81,8,2.26
+217,saldanha,za,38.33,41.42,-6.55,95,0,6.96
+218,illoqqortoormiut,gl,,,,,,
+219,jamestown,sh,64.07,-33.21,138.6,78,92,10.76
+220,bukachacha,ru,47.42,52.99,116.91,46,88,4.05
+221,hovd,mn,42.87,63.83,10.7,48,0,8.05
+222,port lincoln,au,,,,,,
+223,qaanaaq,gl,-4.52,77.48,-69.36,79,36,8.3
+224,lebu,cl,50.93,8.96,38.73,92,24,2.48
+225,east london,za,,,,,,
+226,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+227,port alfred,za,,,,,,
+228,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+229,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+230,ixtapa,mx,71.6,20.71,-105.21,100,5,4.7
+231,puerto ayora,ec,,,,,,
+232,nantucket,us,37.4,41.28,-70.1,100,90,19.46
+233,hami,cn,65.06,42.84,93.51,36,0,6.29
+234,chokurdakh,ru,10.97,70.62,147.9,100,24,11.1
+235,new norfolk,au,,,,,,
+236,tuktoyaktuk,ca,5.32,69.44,-133.03,77,20,10.29
+237,illoqqortoormiut,gl,,,,,,
+238,saldanha,za,38.33,41.42,-6.55,95,0,6.96
+239,tottori,jp,56.16,35.5,134.23,62,20,5.82
+240,pevek,ru,26.45,69.7,170.27,86,32,8.75
+241,taoudenni,ml,62.9,22.68,-3.98,21,0,12.88
+242,hilo,us,75.2,19.71,-155.08,88,75,6.93
+243,praia da vitoria,pt,,,,,,
+244,santa rosa,bo,52.72,34.68,-80.78,87,1,12.75
+245,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+246,gizo,sb,64.4,31.8,34.94,82,75,4.7
+247,port lincoln,au,,,,,,
+248,punta arenas,cl,,,,,,
+249,manggar,id,82.88,-2.88,108.27,100,64,3.83
+250,hilo,us,75.2,19.71,-155.08,88,75,6.93
+251,saint george,bm,,,,,,
+252,vila velha,br,,,,,,
+253,cap-aux-meules,ca,30.41,47.38,-61.86,100,76,16.8
+254,touros,br,76.4,-5.2,-35.46,100,88,9.08
+255,saint-philippe,re,30.15,45.36,-73.48,83,90,8.05
+256,yellowknife,ca,17.6,62.45,-114.38,67,90,12.75
+257,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+258,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+259,avera,pf,53.24,33.19,-82.53,76,90,9.17
+260,dandong,cn,57.05,40.12,124.37,39,0,8.97
+261,saint-louis,re,51.8,47.59,7.56,93,0,3.15
+262,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+263,leh,in,5.48,34.16,77.58,85,76,2.15
+264,jinxiang,cn,68.3,35.07,116.31,57,0,8.86
+265,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+266,barrow,us,67.4,-38.31,-60.23,60,0,14.67
+267,vaini,to,77.12,15.34,74.49,81,8,2.26
+268,gondanglegi,id,78.92,-7.75,112.01,94,56,4.05
+269,hithadhoo,mv,82.97,-0.6,73.08,100,64,5.28
+270,norman wells,ca,,,,,,
+271,maungaturoto,nz,70.46,-36.11,174.36,88,24,21.94
+272,port alfred,za,,,,,,
+273,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+274,illoqqortoormiut,gl,,,,,,
+275,nola,cf,70.28,3.52,16.05,94,80,2.15
+276,hue,vn,75.2,16.47,107.58,94,75,9.17
+277,paoua,cf,71.72,7.24,16.43,80,0,11.43
+278,sajoszoged,hu,59.84,47.95,21,95,80,2.93
+279,mount isa,au,,,,,,
+280,tuktoyaktuk,ca,5.32,69.44,-133.03,77,20,10.29
+281,albany,au,30.09,42.65,-73.75,98,90,8.41
+282,tiksi,ru,22.85,71.64,128.87,92,92,13.78
+283,georgetown,sh,77,6.8,-58.16,94,75,2.24
+284,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+285,vaini,to,77.12,15.34,74.49,81,8,2.26
+286,faanui,pf,83.6,-16.48,-151.75,98,76,14
+287,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+288,vaini,to,77.12,15.34,74.49,81,8,2.26
+289,port alfred,za,,,,,,
+290,albany,au,30.09,42.65,-73.75,98,90,8.41
+291,hilo,us,75.2,19.71,-155.08,88,75,6.93
+292,tasiilaq,gl,35.6,65.61,-37.64,80,92,17.22
+293,sentyabrskiy,ru,,,,,,
+294,dongli,cn,69.8,24.18,117.61,56,75,8.95
+295,yellowknife,ca,17.6,62.45,-114.38,67,90,12.75
+296,kalmunai,lk,80.45,7.42,81.82,97,0,3.83
+297,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+298,saskylakh,ru,16.46,71.97,114.09,86,0,8.63
+299,illoqqortoormiut,gl,,,,,,
+300,goderich,sl,43.01,43.74,-81.71,90,88,37.83
+301,ayagoz,kz,57.14,47.96,80.43,58,12,15.12
+302,abong mbang,cm,,,,,,
+303,beloha,mg,65.96,-25.17,45.06,91,0,3.83
+304,busselton,au,71.81,-33.64,115.35,87,48,13.56
+305,rio gallegos,ar,,,,,,
+306,cape town,za,,,,,,
+307,jamestown,sh,64.07,-33.21,138.6,78,92,10.76
+308,belushya guba,ru,,,,,,
+309,castro,cl,59.12,-42.48,-73.76,90,88,9.31
+310,merauke,id,87.65,-8.49,140.4,85,20,10.65
+311,cervo,es,58.85,-22.19,-46.24,94,56,3.71
+312,iqaluit,ca,5,63.75,-68.52,77,5,3.36
+313,hermanus,za,48.5,-34.42,19.24,89,0,3.83
+314,port alfred,za,,,,,,
+315,hilo,us,75.2,19.71,-155.08,88,75,6.93
+316,nizhneyansk,ru,,,,,,
+317,ballina,au,47.06,54.11,-9.15,94,44,17.02
+318,san patricio,mx,,,,,,
+319,yellowknife,ca,17.6,62.45,-114.38,67,90,12.75
+320,bredasdorp,za,66.2,-34.53,20.04,82,0,10.29
+321,aksu,cn,44.6,52.04,76.93,52,75,11.18
+322,mardin,tr,59.85,37.32,40.72,25,0,13.87
+323,saryshagan,kz,,,,,,
+324,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+325,anadyr,ru,33.8,64.73,177.51,95,90,33.55
+326,saint-philippe,re,30.15,45.36,-73.48,83,90,8.05
+327,charcas,mx,53.54,23.13,-101.11,34,0,14.23
+328,illoqqortoormiut,gl,,,,,,
+329,qaqortoq,gl,26.6,60.72,-46.03,35,5,5.82
+330,saint-pierre,pm,44.6,48.95,4.24,93,75,5.82
+331,port elizabeth,za,,,,,,
+332,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+333,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+334,airai,pw,82.16,-8.93,125.41,69,44,2.04
+335,longyearbyen,sj,24.8,78.22,15.63,85,75,5.82
+336,havelock,us,72.01,34.88,-76.9,83,90,21.92
+337,flinders,au,75.2,-34.58,150.85,41,0,17.22
+338,quang ngai,vn,,,,,,
+339,sentyabrskiy,ru,,,,,,
+340,coyula,mx,67.4,20.93,-98.48,41,0,5.06
+341,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+342,sorong,id,83.15,-0.86,131.25,100,48,2.71
+343,bredasdorp,za,66.2,-34.53,20.04,82,0,10.29
+344,te anau,nz,,,,,,
+345,bairiki,ki,,,,,,
+346,bethel,us,37.4,60.79,-161.76,100,90,3.36
+347,nha trang,vn,,,,,,
+348,castro,cl,59.12,-42.48,-73.76,90,88,9.31
+349,los llanos de aridane,es,,,,,,
+350,bambous virieux,mu,,,,,,
+351,saskylakh,ru,16.46,71.97,114.09,86,0,8.63
+352,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+353,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+354,qaanaaq,gl,-4.52,77.48,-69.36,79,36,8.3
+355,jamestown,sh,64.07,-33.21,138.6,78,92,10.76
+356,batemans bay,au,,,,,,
+357,kaitangata,nz,56.6,-46.28,169.85,60,0,24.29
+358,wamba,cd,68.12,2.14,27.99,93,88,2.15
+359,punta arenas,cl,,,,,,
+360,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+361,souillac,mu,49.01,45.6,-0.6,93,0,3.36
+362,nouadhibou,mr,60.8,20.93,-17.03,87,0,14.99
+363,nortelandia,br,70.46,-14.45,-56.8,93,64,2.93
+364,dauphin,ca,28.4,51.15,-100.04,79,1,5.82
+365,pacific grove,us,,,,,,
+366,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+367,ilulissat,gl,8.6,69.22,-51.1,71,0,1.12
+368,pacific grove,us,,,,,,
+369,strezhevoy,ru,26.6,60.73,77.6,68,0,4.47
+370,bredasdorp,za,66.2,-34.53,20.04,82,0,10.29
+371,yuancheng,cn,,,,,,
+372,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+373,hilo,us,75.2,19.71,-155.08,88,75,6.93
+374,umzimvubu,za,,,,,,
+375,albany,au,30.09,42.65,-73.75,98,90,8.41
+376,mar del plata,ar,,,,,,
+377,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+378,san quintin,mx,,,,,,
+379,punta arenas,cl,,,,,,
+380,hobart,au,53.6,-42.88,147.33,40,40,19.46
+381,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+382,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+383,cidreira,br,69.02,-30.17,-50.22,79,48,10.76
+384,saint-philippe,re,30.15,45.36,-73.48,83,90,8.05
+385,aklavik,ca,12.2,68.22,-135.01,51,5,6.93
+386,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+387,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+388,dingle,ie,90.08,11,122.67,51,8,12.66
+389,paradwip,in,,,,,,
+390,tambura,sd,,,,,,
+391,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+392,tokur,ru,44.45,53.13,132.9,36,0,6.73
+393,aksarka,ru,12.5,66.56,67.8,91,64,13
+394,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+395,arraial do cabo,br,,,,,,
+396,dong xoai,vn,,,,,,
+397,hasaki,jp,61.48,35.73,140.83,39,40,2.24
+398,gorno-chuyskiy,ru,,,,,,
+399,upernavik,gl,3.95,72.79,-56.15,100,20,13.22
+400,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+401,nikolskoye,ru,35.6,59.7,30.79,74,0,2.24
+402,vostok,ru,41.75,46.45,135.83,73,76,5.06
+403,kruisfontein,za,62.18,-34,24.73,84,0,13.56
+404,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+405,avarua,ck,77,-21.21,-159.78,69,20,11.41
+406,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+407,faanui,pf,83.6,-16.48,-151.75,98,76,14
+408,busselton,au,71.81,-33.64,115.35,87,48,13.56
+409,havre-saint-pierre,ca,19.4,50.23,-63.6,79,20,2.24
+410,cape town,za,,,,,,
+411,ribeira grande,pt,,,,,,
+412,talnakh,ru,21.86,69.49,88.39,94,80,4.61
+413,ponta delgada,pt,,,,,,
+414,te anau,nz,,,,,,
+415,porechye-rybnoye,ru,31.85,57.1,39.38,78,0,2.93
+416,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+417,mahebourg,mu,78.8,-20.41,57.7,83,75,1.12
+418,albany,au,30.09,42.65,-73.75,98,90,8.41
+419,taolanaro,mg,,,,,,
+420,port elizabeth,za,,,,,,
+421,palana,ru,26.72,59.08,159.95,70,68,5.39
+422,margate,za,53.6,-43.03,147.26,40,40,19.46
+423,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+424,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+425,port lincoln,au,,,,,,
+426,ponta do sol,pt,,,,,,
+427,geraldton,au,19.4,49.72,-86.95,57,90,16.11
+428,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+429,warrnambool,au,61.28,-38.38,142.48,95,88,19.15
+430,luderitz,na,63.44,-26.65,15.16,81,0,5.73
+431,east london,za,,,,,,
+432,husavik,is,27.35,50.56,-96.99,51,0,10.42
+433,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+434,zaysan,kz,51.92,47.47,84.87,78,92,7.63
+435,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+436,busselton,au,71.81,-33.64,115.35,87,48,13.56
+437,liancheng,cn,54.17,24.05,105.06,100,92,4.38
+438,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+439,ojinaga,mx,59.57,29.56,-104.41,10,0,8.08
+440,poum,nc,45.8,41.28,20.71,68,20,2.04
+441,vaini,to,77.12,15.34,74.49,81,8,2.26
+442,hilo,us,75.2,19.71,-155.08,88,75,6.93
+443,troitsko-pechorsk,ru,24.74,62.71,56.19,78,8,7.63
+444,ivybridge,gb,48.32,50.39,-3.92,95,92,13.89
+445,hobart,au,53.6,-42.88,147.33,40,40,19.46
+446,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+447,chokurdakh,ru,10.97,70.62,147.9,100,24,11.1
+448,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+449,port blair,in,,,,,,
+450,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+451,kyrksaeterora,no,43.66,63.29,9.09,52,0,17.22
+452,isangel,vu,79.1,-19.55,169.27,100,80,18.7
+453,yen bai,vn,,,,,,
+454,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+455,grand centre,ca,,,,,,
+456,kerki,tm,,,,,,
+457,avarua,ck,77,-21.21,-159.78,69,20,11.41
+458,hilo,us,75.2,19.71,-155.08,88,75,6.93
+459,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+460,saskylakh,ru,16.46,71.97,114.09,86,0,8.63
+461,barentsburg,sj,,,,,,
+462,punta arenas,cl,,,,,,
+463,taolanaro,mg,,,,,,
+464,agarak,am,28.43,38.87,46.2,90,80,2.15
+465,faanui,pf,83.6,-16.48,-151.75,98,76,14
+466,veracruz,mx,81.54,7.66,-72.25,47,40,1.14
+467,pisco,pe,68,-13.71,-76.2,82,0,10.29
+468,sorland,no,32,67.67,12.69,97,0,3.36
+469,dikson,ru,7.1,73.51,80.55,100,64,20.49
+470,katsiveli,ua,,,,,,
+471,qaanaaq,gl,-4.52,77.48,-69.36,79,36,8.3
+472,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+473,touros,br,76.4,-5.2,-35.46,100,88,9.08
+474,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+475,tsihombe,mg,,,,,,
+476,kudahuvadhoo,mv,80.36,2.67,72.89,100,44,5.06
+477,peno,ru,38.06,56.92,32.74,78,24,2.71
+478,hobart,au,53.6,-42.88,147.33,40,40,19.46
+479,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+480,nanortalik,gl,26.18,60.14,-45.24,100,0,13.22
+481,aflu,dz,,,,,,
+482,los llanos de aridane,es,,,,,,
+483,cape town,za,,,,,,
+484,chokurdakh,ru,10.97,70.62,147.9,100,24,11.1
+485,ahipara,nz,68.66,-35.17,173.16,92,92,16.02
+486,panzhihua,cn,66.59,26.59,101.72,47,76,2.93
+487,avarua,ck,77,-21.21,-159.78,69,20,11.41
+488,luancheng,cn,66.2,37.88,114.65,42,0,6.71
+489,namatanai,pg,85.13,-3.66,152.44,95,48,8.52
+490,albany,au,30.09,42.65,-73.75,98,90,8.41
+491,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+492,yellowknife,ca,17.6,62.45,-114.38,67,90,12.75
+493,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+494,yellowknife,ca,17.6,62.45,-114.38,67,90,12.75
+495,san policarpo,ph,,,,,,
+496,ribeira grande,pt,,,,,,
+497,mullaitivu,lk,,,,,,
+498,saldanha,za,38.33,41.42,-6.55,95,0,6.96
+499,batemans bay,au,,,,,,
+500,east london,za,,,,,,
+501,sorland,no,32,67.67,12.69,97,0,3.36
+502,airai,pw,82.16,-8.93,125.41,69,44,2.04
+503,palabuhanratu,id,,,,,,
+504,pahrump,us,71.94,36.21,-115.98,7,1,10.29
+505,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+506,uvira,cd,60.83,-3.41,29.14,100,88,1.25
+507,chifeng,cn,59.48,42.27,118.96,59,0,12.21
+508,cherskiy,ru,26.63,68.75,161.3,76,8,4.27
+509,klaksvik,fo,44.6,62.23,-6.59,93,92,21.92
+510,rafaela,ar,63.71,-31.25,-61.49,93,0,4.27
+511,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+512,westport,ie,47.33,53.8,-9.52,93,32,18.48
+513,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+514,half moon bay,us,,,,,,
+515,taolanaro,mg,,,,,,
+516,tumannyy,ru,,,,,,
+517,tuktoyaktuk,ca,5.32,69.44,-133.03,77,20,10.29
+518,kununurra,au,96.8,-15.77,128.74,26,0,11.41
+519,castro,cl,59.12,-42.48,-73.76,90,88,9.31
+520,noyabrsk,ru,13.76,63.2,75.45,96,64,7.74
+521,okha,ru,31.31,53.59,142.95,100,76,6.62
+522,khatanga,ru,10.25,71.98,102.47,93,24,10.2
+523,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+524,anadyr,ru,33.8,64.73,177.51,95,90,33.55
+525,nizhneyansk,ru,,,,,,
+526,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+527,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+528,kavaratti,in,85.76,10.57,72.64,100,8,10.65
+529,podgornoye,ru,37.25,57.79,82.64,85,88,7.74
+530,belushya guba,ru,,,,,,
+531,sainte-maxime,fr,50.52,43.31,6.64,87,0,3.27
+532,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+533,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+534,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+535,chuy,uy,67.13,-33.69,-53.46,83,8,13.11
+536,kapaa,us,76.37,22.08,-159.32,88,90,13.87
+537,punta arenas,cl,,,,,,
+538,provideniya,ru,32.75,64.42,-173.23,92,88,24.07
+539,talnakh,ru,21.86,69.49,88.39,94,80,4.61
+540,busselton,au,71.81,-33.64,115.35,87,48,13.56
+541,saint-philippe,re,30.15,45.36,-73.48,83,90,8.05
+542,vaini,to,77.12,15.34,74.49,81,8,2.26
+543,taolanaro,mg,,,,,,
+544,maneadero,mx,,,,,,
+545,flin flon,ca,,,,,,
+546,cidreira,br,69.02,-30.17,-50.22,79,48,10.76
+547,moose factory,ca,,,,,,
+548,nekhayevskiy,ru,36.53,50.41,41.76,69,24,3.04
+549,kushiro,jp,41,43.11,144.15,56,75,9.17
+550,puerto ayora,ec,,,,,,
+551,saldanha,za,38.33,41.42,-6.55,95,0,6.96
+552,butaritari,ki,81.89,3.07,172.79,100,24,6.96
+553,chicama,pe,64.4,-7.84,-79.15,93,90,9.17
+554,iqaluit,ca,5,63.75,-68.52,77,5,3.36
+555,leningradskiy,ru,28.43,69.38,178.42,98,92,25.86
+556,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+557,amderma,ru,,,,,,
+558,bluff,nz,88.46,-23.58,149.07,51,8,4.61
+559,gizo,sb,64.4,31.8,34.94,82,75,4.7
+560,vaini,to,77.12,15.34,74.49,81,8,2.26
+561,saskylakh,ru,16.46,71.97,114.09,86,0,8.63
+562,okhotsk,ru,32.66,59.36,143.24,80,0,5.06
+563,puerto ayora,ec,,,,,,
+564,luganville,vu,81.71,-15.51,167.18,98,56,16.02
+565,severo-kurilsk,ru,29.06,50.68,156.12,100,92,20.71
+566,east london,za,,,,,,
+567,hami,cn,65.06,42.84,93.51,36,0,6.29
+568,hilo,us,75.2,19.71,-155.08,88,75,6.93
+569,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+570,agadez,ne,74.15,16.97,7.99,20,0,10.42
+571,kodiak,us,30.2,39.95,-94.76,86,90,12.75
+572,madang,pg,82.52,-5.21,145.81,91,20,3.49
+573,souillac,mu,49.01,45.6,-0.6,93,0,3.36
+574,pacific grove,us,,,,,,
+575,mount isa,au,,,,,,
+576,kanata,ca,28.4,45.32,-75.9,86,90,27.51
+577,khatanga,ru,10.25,71.98,102.47,93,24,10.2
+578,porto santo,pt,,,,,,
+579,busselton,au,71.81,-33.64,115.35,87,48,13.56
+580,port alfred,za,,,,,,
+581,hamilton,bm,33.35,43.26,-79.87,100,90,25.28
+582,saint-augustin,ca,52.79,44.83,-0.61,100,76,4.7
+583,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+584,dikson,ru,7.1,73.51,80.55,100,64,20.49
+585,atescatempa,gt,63.35,14.18,-89.74,95,36,2.15
+586,nadvoitsy,ru,24.56,63.89,34.27,80,68,2.59
+587,santa cruz cabralia,br,,,,,,
+588,bakal,ru,29.42,54.94,58.81,88,64,10.65
+589,tavda,ru,25.19,58.04,65.27,91,0,12.66
+590,tuktoyaktuk,ca,5.32,69.44,-133.03,77,20,10.29
+591,nhulunbuy,au,91.4,-12.18,136.78,49,40,16.11
+592,bone,id,89.6,-5.29,119.42,70,40,8.05
+593,komsomolskiy,ru,8.18,67.55,63.78,87,56,15.35
+594,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+595,mys shmidta,ru,,,,,,
+596,vaini,to,77.12,15.34,74.49,81,8,2.26
+597,taolanaro,mg,,,,,,
+598,la ronge,ca,,,,,,
+599,atuona,pf,82.43,-9.8,-139.03,99,76,18.25
+600,hobart,au,53.6,-42.88,147.33,40,40,19.46
+601,tiksi,ru,22.85,71.64,128.87,92,92,13.78
+602,tsihombe,mg,,,,,,
+603,bud,no,39.27,62.91,6.91,94,0,5.82
+604,torbay,ca,28.4,47.66,-52.73,74,75,23.04
+605,sur,om,78.83,22.57,59.53,95,0,2.71
+606,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+607,paamiut,gl,28.07,61.99,-49.67,100,8,24.74
+608,jamestown,sh,64.07,-33.21,138.6,78,92,10.76
+609,hilo,us,75.2,19.71,-155.08,88,75,6.93
+610,aden,ye,80.81,12.79,45.03,100,76,8.97
+611,thompson,ca,30.2,55.74,-97.86,30,20,3.36
+612,ballstad,no,,,,,,
+613,mataura,pf,55.79,-46.19,168.86,69,0,19.82
+614,fairbanks,us,38.03,64.84,-147.72,32,1,8.05
+615,sao filipe,cv,,,,,,
+616,barentsburg,sj,,,,,,
+617,lerwick,gb,42.8,60.15,-1.15,100,92,17.22
+618,macusani,pe,50.66,-14.07,-70.43,100,80,1.7
+619,port elizabeth,za,,,,,,
+620,avarua,ck,77,-21.21,-159.78,69,20,11.41
+621,teguldet,ru,35.45,57.31,88.17,95,92,8.75
+622,roald,no,36.7,62.58,6.12,93,0,8.05
+623,kangaatsiaq,gl,11.6,68.31,-53.46,100,0,5.95
+624,busselton,au,71.81,-33.64,115.35,87,48,13.56
+625,sao joao da barra,br,,,,,,
+626,faya,td,58.87,18.39,42.45,48,0,2.93
+627,robertsport,lr,80.63,6.75,-11.37,100,92,9.31
+628,new norfolk,au,,,,,,
+629,hilo,us,75.2,19.71,-155.08,88,75,6.93
+630,springfield,us,32,37.22,-93.29,63,90,14.99
+631,tilburg,nl,50.02,51.56,5.08,93,92,4.7
+632,nanortalik,gl,26.18,60.14,-45.24,100,0,13.22
+633,tasiilaq,gl,35.6,65.61,-37.64,80,92,17.22
+634,thinadhoo,mv,83.78,0.53,72.93,100,56,4.16
+635,khatanga,ru,10.25,71.98,102.47,93,24,10.2
+636,punta arenas,cl,,,,,,
+637,alto araguaia,br,,,,,,
+638,sinnamary,gf,79.46,5.38,-52.96,96,92,15.01
+639,saint anthony,ca,,,,,,
+640,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+641,bonthe,sl,79.55,7.53,-12.5,90,80,4.05
+642,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+643,vaini,to,77.12,15.34,74.49,81,8,2.26
+644,quthing,ls,35,-30.4,27.7,100,0,2.82
+645,taolanaro,mg,,,,,,
+646,rikitea,pf,79.46,-23.12,-134.97,100,76,17.25
+647,gillette,us,42.8,44.29,-105.5,60,1,19.46
+648,lebanon,us,27.5,43.64,-72.25,68,90,8.05
+649,birin,dz,44,35.01,36.67,66,0,2.59
+650,mabaruma,gy,76.22,8.2,-59.78,98,68,5.06
+651,dingle,ie,90.08,11,122.67,51,8,12.66
+652,pevek,ru,26.45,69.7,170.27,86,32,8.75
+653,taolanaro,mg,,,,,,
+654,vaini,to,77.12,15.34,74.49,81,8,2.26
+655,lagoa,pt,48.2,37.14,-8.45,100,0,3.27
+656,ushuaia,ar,46.4,-54.81,-68.31,65,0,3.36
+657,moranbah,au,88.82,-22,148.04,44,0,10.42
+658,airai,pw,82.16,-8.93,125.41,69,44,2.04
+659,tsihombe,mg,,,,,,
+660,albany,au,30.09,42.65,-73.75,98,90,8.41
+661,yar-sale,ru,13.58,66.83,70.83,92,88,13.22
+662,tasiilaq,gl,35.6,65.61,-37.64,80,92,17.22
+663,altamont,us,26.6,49.4,-98.5,100,1,6.4
+664,souillac,mu,49.01,45.6,-0.6,93,0,3.36
+665,hamilton,bm,33.35,43.26,-79.87,100,90,25.28
+666,tuatapere,nz,52.55,-46.13,167.69,100,8,17.92
+667,taolanaro,mg,,,,,,
+668,bluff,nz,,,,,,
+669,busselton,au,,,,,,
+670,qaanaaq,gl,,,,,,
+671,sayan,pe,,,,,,
+672,bluff,nz,,,,,,
+673,torbay,ca,,,,,,
+674,burkhala,ru,,,,,,
+675,grand river south east,mu,,,,,,
+676,panaba,mx,,,,,,
+677,mangai,cd,,,,,,
+678,barentsburg,sj,,,,,,
+679,misratah,ly,,,,,,
+680,flers,fr,,,,,,
+681,tuktoyaktuk,ca,,,,,,
+682,krasnoarmeysk,kz,,,,,,
+683,barrow,us,,,,,,
+684,bredasdorp,za,,,,,,
+685,belaya gora,ru,,,,,,
+686,himora,et,,,,,,
+687,arraial do cabo,br,,,,,,
+688,nabire,id,,,,,,
+689,hvide sande,dk,,,,,,
+690,lasa,cn,,,,,,
+691,krylovskaya,ru,,,,,,
+692,punta arenas,cl,,,,,,
+693,upata,ve,,,,,,
+694,avarua,ck,,,,,,
+695,kodiak,us,,,,,,
+696,umzimvubu,za,,,,,,
+697,rikitea,pf,,,,,,
+698,karauzyak,uz,,,,,,
+699,jamestown,sh,,,,,,
+700,cherskiy,ru,,,,,,
+701,hermanus,za,,,,,,
+702,arraial do cabo,br,,,,,,
+703,qaanaaq,gl,,,,,,
+704,hermanus,za,,,,,,
+705,punta arenas,cl,,,,,,
+706,castro,cl,,,,,,
+707,punta arenas,cl,,,,,,
+708,kanye,bw,,,,,,
+709,yellowknife,ca,,,,,,
+710,anekal,in,,,,,,
+711,san patricio,mx,,,,,,
+712,halalo,wf,,,,,,
+713,yellowknife,ca,,,,,,
+714,ushuaia,ar,,,,,,
+715,albany,au,,,,,,
+716,manakara,mg,,,,,,
+717,boyuibe,bo,,,,,,
+718,cape town,za,,,,,,
+719,asau,tv,,,,,,
+720,lebu,cl,,,,,,
+721,punta arenas,cl,,,,,,
+722,vaini,to,,,,,,
+723,sharjah,ae,,,,,,
+724,vestmannaeyjar,is,,,,,,
+725,norman wells,ca,,,,,,
+726,hobart,au,,,,,,
+727,alice springs,au,,,,,,
+728,liverpool,ca,,,,,,
+729,new norfolk,au,,,,,,
+730,krasnoselkup,ru,,,,,,
+731,ribeira grande,pt,,,,,,
+732,mount gambier,au,,,,,,
+733,vychegodskiy,ru,,,,,,
+734,kaitangata,nz,,,,,,
+735,bambous virieux,mu,,,,,,
+736,arraial do cabo,br,,,,,,
+737,rungata,ki,,,,,,
+738,guerrero negro,mx,,,,,,
+739,faro,pt,,,,,,
+740,punta arenas,cl,,,,,,
+741,punta arenas,cl,,,,,,
+742,cape town,za,,,,,,
+743,biloela,au,,,,,,
+744,jamestown,sh,,,,,,
+745,punta arenas,cl,,,,,,
+746,shakhrinau,tj,,,,,,
+747,mataram,id,,,,,,
+748,hermanus,za,,,,,,
+749,riyadh,sa,,,,,,
+750,hilo,us,,,,,,
+751,bobrovka,ru,,,,,,
+752,avarua,ck,,,,,,
+753,vestmannaeyjar,is,,,,,,
+754,krasnoarmeysk,ua,,,,,,
+755,cherskiy,ru,,,,,,
+756,tuktoyaktuk,ca,,,,,,
+757,fortuna,us,,,,,,
+758,codrington,ag,,,,,,
+759,punta arenas,cl,,,,,,
+760,buala,sb,,,,,,
+761,pyaozerskiy,ru,,,,,,
+762,qaanaaq,gl,,,,,,
+763,illoqqortoormiut,gl,,,,,,
+764,samusu,ws,,,,,,
+765,codrington,ag,,,,,,
+766,mecca,sa,,,,,,
+767,rikitea,pf,,,,,,
+768,pangnirtung,ca,,,,,,
+769,meyungs,pw,,,,,,
+770,pisco,pe,,,,,,
+771,busselton,au,,,,,,
+772,ahipara,nz,,,,,,
+773,mataura,pf,,,,,,
+774,new norfolk,au,,,,,,
+775,quatre cocos,mu,,,,,,
+776,husavik,is,,,,,,
+777,port hardy,ca,,,,,,
+778,beringovskiy,ru,,,,,,
+779,mackay,au,,,,,,
+780,tibagi,br,,,,,,
+781,palauig,ph,,,,,,
+782,sataua,ws,,,,,,
+783,saldanha,za,,,,,,
+784,bredasdorp,za,,,,,,
+785,vaini,to,,,,,,
+786,saint george,bm,,,,,,
+787,bama,ng,,,,,,
+788,ust-omchug,ru,,,,,,
+789,cape town,za,,,,,,
+790,acari,pe,,,,,,
+791,marabba,sd,,,,,,
+792,viedma,ar,,,,,,
+793,busselton,au,,,,,,
+794,dudinka,ru,,,,,,
+795,luderitz,na,,,,,,
+796,nanortalik,gl,,,,,,
+797,thompson,ca,,,,,,
+798,nikolskoye,ru,,,,,,
+799,yellowknife,ca,,,,,,
+800,illoqqortoormiut,gl,,,,,,
+801,albany,au,,,,,,
+802,avarua,ck,,,,,,
+803,amderma,ru,,,,,,
+804,hobart,au,,,,,,
+805,arraial do cabo,br,,,,,,
+806,torbay,ca,,,,,,
+807,busselton,au,,,,,,
+808,upernavik,gl,,,,,,
+809,lompoc,us,,,,,,
+810,qaanaaq,gl,,,,,,
+811,lagos,pt,,,,,,
+812,taolanaro,mg,,,,,,
+813,butaritari,ki,,,,,,
+814,cape town,za,,,,,,
+815,albany,au,,,,,,
+816,baruun-urt,mn,,,,,,
+817,balaguer,es,,,,,,
+818,linchuan,cn,,,,,,
+819,albany,au,,,,,,
+820,ribeira grande,pt,,,,,,
+821,kuloy,ru,,,,,,
+822,puerto ayora,ec,,,,,,
+823,attawapiskat,ca,,,,,,
+824,tabiauea,ki,,,,,,
+825,geraldton,au,,,,,,
+826,belushya guba,ru,,,,,,
+827,sambava,mg,,,,,,
+828,taolanaro,mg,,,,,,
+829,itaituba,br,,,,,,
+830,punta arenas,cl,,,,,,
+831,turukhansk,ru,,,,,,
+832,bethel,us,,,,,,
+833,rikitea,pf,,,,,,
+834,kapaa,us,,,,,,
+835,berbera,so,,,,,,
+836,sao filipe,cv,,,,,,
+837,ancud,cl,,,,,,
+838,luderitz,na,,,,,,
+839,brae,gb,,,,,,
+840,chabahar,ir,,,,,,
+841,mataura,pf,,,,,,
+842,morehead,pg,,,,,,
+843,cidreira,br,,,,,,
+844,mandurah,au,,,,,,
+845,abu dhabi,ae,,,,,,
+846,punta arenas,cl,,,,,,
+847,sentyabrskiy,ru,,,,,,
+848,mahebourg,mu,,,,,,
+849,hermanus,za,,,,,,
+850,manzil jamil,tn,,,,,,
+851,nizhneyansk,ru,,,,,,
+852,mataura,pf,,,,,,
+853,nikolskoye,ru,,,,,,
+854,san joaquin,bo,,,,,,
+855,tha bo,th,,,,,,
+856,thompson,ca,,,,,,
+857,jamestown,sh,,,,,,
+858,rikitea,pf,,,,,,
+859,hilo,us,,,,,,
+860,mandalgovi,mn,,,,,,
+861,mataura,pf,,,,,,
+862,victor harbor,au,,,,,,
+863,ndjole,ga,,,,,,
+864,saint-francois,gp,,,,,,
+865,albany,au,,,,,,
+866,thompson,ca,,,,,,
+867,karratha,au,,,,,,
+868,vaitupu,wf,,,,,,
+869,kavieng,pg,,,,,,
+870,fort nelson,ca,,,,,,
+871,jamestown,sh,,,,,,
+872,urumqi,cn,,,,,,
+873,barra do garcas,br,,,,,,
+874,verkhnevilyuysk,ru,,,,,,
+875,busselton,au,,,,,,
+876,kishi,ng,,,,,,
+877,palabuhanratu,id,,,,,,
+878,roald,no,,,,,,
+879,toliary,mg,,,,,,
+880,ribeira grande,pt,,,,,,
+881,hobart,au,,,,,,
+882,nuuk,gl,,,,,,
+883,hasaki,jp,,,,,,
+884,pitimbu,br,,,,,,
+885,mataura,pf,,,,,,
+886,rikitea,pf,,,,,,
+887,cabo san lucas,mx,,,,,,
+888,kapaa,us,,,,,,
+889,rikitea,pf,,,,,,
+890,yellowknife,ca,,,,,,
+891,kaitangata,nz,,,,,,
+892,souillac,mu,,,,,,
+893,chikwawa,mw,,,,,,
+894,mataura,pf,,,,,,
+895,bac lieu,vn,,,,,,
+896,kapaa,us,,,,,,
+897,kerteh,my,,,,,,
+898,puerto ayora,ec,,,,,,
+899,belushya guba,ru,,,,,,
+900,arica,cl,,,,,,
+901,salalah,om,,,,,,
+902,itarema,br,,,,,,
+903,taolanaro,mg,,,,,,
+904,saldanha,za,,,,,,
+905,darhan,mn,,,,,,
+906,nome,us,,,,,,
+907,ushuaia,ar,,,,,,
+908,mataura,pf,,,,,,
+909,souillac,mu,,,,,,
+910,chumikan,ru,,,,,,
+911,albany,au,,,,,,
+912,grand river south east,mu,,,,,,
+913,sidrolandia,br,,,,,,
+914,lebu,cl,,,,,,
+915,omsukchan,ru,,,,,,
+916,bredasdorp,za,,,,,,
+917,afmadu,so,,,,,,
+918,albany,au,,,,,,
+919,baghdad,iq,,,,,,
+920,kargopol,ru,,,,,,
+921,sitka,us,,,,,,
+922,riyadh,sa,,,,,,
+923,mataura,pf,,,,,,
+924,nikolskoye,ru,,,,,,
+925,puerto ayora,ec,,,,,,
+926,severo-kurilsk,ru,,,,,,
+927,vaini,to,,,,,,
+928,teguldet,ru,,,,,,
+929,rikitea,pf,,,,,,
+930,khatanga,ru,,,,,,
+931,hilo,us,,,,,,
+932,channel-port aux basques,ca,,,,,,
+933,amderma,ru,,,,,,
+934,takoradi,gh,,,,,,
+935,arraial do cabo,br,,,,,,
+936,alofi,nu,,,,,,
+937,cody,us,,,,,,
+938,fairbanks,us,,,,,,
+939,barrow,us,,,,,,
+940,port alfred,za,,,,,,
+941,ribeira grande,pt,,,,,,
+942,ushuaia,ar,,,,,,
+943,poum,nc,,,,,,
+944,kapaa,us,,,,,,
+945,ixtapa,mx,,,,,,
+946,qaanaaq,gl,,,,,,
+947,arraial do cabo,br,,,,,,
+948,eureka,us,,,,,,
+949,belushya guba,ru,,,,,,
+950,cabra,ph,,,,,,
+951,kapaa,us,,,,,,
+952,sitka,us,,,,,,
+953,cairns,au,,,,,,
+954,dingle,ie,,,,,,
+955,hermanus,za,,,,,,
+956,yerbogachen,ru,,,,,,
+957,mataura,pf,,,,,,
+958,timmins,ca,,,,,,
+959,georgetown,sh,,,,,,
+960,punta arenas,cl,,,,,,
+961,nakamura,jp,,,,,,
+962,elat,il,,,,,,
+963,kapaa,us,,,,,,
+964,suksun,ru,,,,,,
+965,sembe,cg,,,,,,
+966,tsihombe,mg,,,,,,
+967,bredasdorp,za,,,,,,
+968,ushuaia,ar,,,,,,
+969,castro,cl,,,,,,
+970,rikitea,pf,,,,,,
+971,busselton,au,,,,,,
+972,tasiilaq,gl,,,,,,
+973,eureka,us,,,,,,
+974,salalah,om,,,,,,
+975,san patricio,mx,,,,,,
+976,ballina,au,,,,,,
+977,hilo,us,,,,,,
+978,kazerun,ir,,,,,,
+979,rikitea,pf,,,,,,
+980,busselton,au,,,,,,
+981,hilo,us,,,,,,
+982,nikolskoye,ru,,,,,,
+983,kaitangata,nz,,,,,,
+984,dudinka,ru,,,,,,
+985,punta arenas,cl,,,,,,
+986,kalmunai,lk,,,,,,
+987,hazorasp,uz,,,,,,
+988,zapolyarnyy,ru,,,,,,
+989,kaitangata,nz,,,,,,
+990,castro,cl,,,,,,
+991,washington,us,,,,,,
+992,qaanaaq,gl,,,,,,
+993,hilo,us,,,,,,
+994,busselton,au,,,,,,
+995,ushuaia,ar,,,,,,
+996,ratnagiri,in,,,,,,
+997,comodoro rivadavia,ar,,,,,,
+998,rikitea,pf,,,,,,
+999,grand river south east,mu,,,,,,
