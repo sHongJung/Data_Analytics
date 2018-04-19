@@ -1,10 +1,10 @@
 -- Let's create a new database
-CREATE DATABASE customer_data;
+CREATE DATABASE if not exists customer_data;
 
 USE customer_data;
 
 -- Let's make a new table
-CREATE TABLE customer (
+CREATE TABLE if not exists customer (
     id INTEGER(11) AUTO_INCREMENT NOT NULL,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
@@ -31,3 +31,16 @@ TO DO:
   3. Create a new table to hold customers' phones with a foreign key that references the customer table
   4. Populate the phone table with data from the customer table
 */
+
+create table if not exists customer_email(
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
+    email VARCHAR(30) NOT NULL,
+	foreign key(customer_id) references customer(id)
+);
+
+SELECT * FROM customer_email;
+
+
+
+
