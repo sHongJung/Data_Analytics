@@ -1,0 +1,18 @@
+.box{
+  position: absolute;
+}
+.box1{
+  top:50%;
+  left:50%;
+}
+.box2{
+  top:60%;
+  left:50%;
+}
+.box4{
+  bottom:0%;
+  right:0%;
+}
+.box5{
+  bottom:50%;
+}
