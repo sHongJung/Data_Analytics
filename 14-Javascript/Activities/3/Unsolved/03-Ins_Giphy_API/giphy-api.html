@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy API</title>
+  <img src="" alt="">
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script type="text/javascript">
+    // Example queryURL for Giphy API
+    var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC";
+
+    d3.json(queryURL, function(error, response) {
+      if (error) return console.warn(error);
+
+      console.log(response);
+      // console.log("type", typeof(response));
+      // document.write(JSON.stringify(response));
+    })
+
+  </script>
+
+</body>
+
+</html>

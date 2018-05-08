@@ -15,6 +15,9 @@
     <div>
       <ul style="list-style: none;">
         <!-- @TODO: list out the name property  of your objects using dot notation. -->
+        {% for i, job in dict.items() %}
+        <li>{{i}}: {{job}}</li>
+        {% endfor %}
       </ul>
     </div>
   </div>

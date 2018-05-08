@@ -15,6 +15,9 @@
     <div>
       <ul style="list-style: none;">
         <!-- @TODO: write a for loop that lists out your data and accesses the values using dot notation. -->
+        {% for list in lists %}
+          <li>{{list.name}}: {{list.hobby}}</li>
+        {% endfor %}
       </ul>
     </div>
   </div>
