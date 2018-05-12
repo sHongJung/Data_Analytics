@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3 Select</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+</head>
+<body>
+    <h1>This is an H1</h1>
+    <div class="text1">This div has a class</div>
+    <div id="text2">This div has an id</div>
+    <div class="mylink">
+        <a href="https://github.com/d3/d3-selection">D3 Home</a>
+    </div>
+
+    <div class="deeplink">
+        <div class="outer">
+            <div class="inner">
+                <a href="https://github.com/d3/d3-selection">D3 Select</a>
+            </div>
+        </div>
+    </div>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+</body>
+
+<script>
+    // Select the text of an HTML element
+    var text1 = d3.select(".text1").text();
+    console.log("text1 says: " + text1);
+
+    var text2 = d3.select("#text2").text();
+    console.log("text2 says: " + text2);
+
+    // // Modify the text of an HTML element
+    // // Uncomment the line below to run it
+    // d3.select(".text1").text("Hey, I changed this!")
+
+    // // Capture the HTML of a selection
+    // var mylink = d3.select(".mylink").html();
+    // console.log("mylink: " + mylink);
+
+    // // Select an element's child element
+    // // An object is returned
+    // var mylinkAnchor = d3.select(".mylink>a");
+    // console.log(mylinkAnchor);
+
+    // // // Capture the child element's href attribute
+    // var mylinkAnchorAttribute = mylinkAnchor.attr("href");
+    // console.log("mylinkAnchorAttribute: " + mylinkAnchorAttribute);
+
+    // // Change an element's attribute
+    // // Uncomment the line below
+    // mylinkAnchor.attr("href", "https://python.org")
+
+    // // Use chaining to join methods
+    // d3.select(".mylink>a").attr("href", "https://nytimes.org").text("Now this is a link to the NYT!!");
+
+    // // Select all list items, then change their font color 
+    // d3.selectAll("li").style("color", "blue");
+
+    // // Create a new element
+    // var $li1 = d3.select("ul").append("li");
+    // $li1.text("A new item has been added!")
+
+    // //Use chaining to create a new element and set its text
+    // var $li2 = d3.select("ul").append("li").text("Another new item!");
+
+
+</script>
+</html>

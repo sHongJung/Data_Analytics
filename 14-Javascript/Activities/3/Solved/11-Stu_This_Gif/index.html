@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quoth the Giphy</title>
+</head>
+
+<body>
+  <button data-person="Arnold Schwarzenegger">I'll be back</button>
+  <button data-person="Michael J Fox">
+    My happiness grows in direct proportionto my acceptance,
+    and in inverse proportion to my expectations.
+  </button>
+  <!-- STEP TWO: between the dashed lines below
+        * add three more buttons
+        * add a data-person attribute of famous people you know
+        * with a quote said by them -->
+
+        <button data-person="Lucille Ball">
+            Love yourself first and everything else falls into line.
+          </button>
+          <button data-person="Taylor Swift">
+            If you're horrible to me, I'm going to write a song about it,
+            and you won't like it. That's how I operate.
+          </button>
+          <button data-person="Samuel Jackson">
+            Far better is it to dare mighty things, to win glorious triumphs,
+            even though checkered by failure... than to rank with those poor spirits who
+            neither enjoy nor suffer much, because they live in a gray twilight that
+            knows not victory nor defeat.
+          </button>
+
+  <!--  -->
+
+  <button data-person="Lucille Ball">
+    Love yourself first and everything else falls into line.
+  </button>
+  <button data-person="Taylor Swift">
+    If you're horrible to me, I'm going to write a song about it,
+    and you won't like it. That's how I operate.
+  </button>
+  <button data-person="Samuel Jackson">
+    Far better is it to dare mighty things, to win glorious triumphs,
+    even though checkered by failure... than to rank with those poor spirits who
+    neither enjoy nor suffer much, because they live in a gray twilight that
+    knows not victory nor defeat.
+  </button>
+
+  <div id="gifs-appear-here">
+  </div>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script type="text/javascript">
+  // Add button click event
+  d3.selectAll("button").on("click", function() {
+
+  // Grab name from button clicked
+  var person = d3.select(this).attr("data-person");
+  console.log(person);
+  
+  // Construct API query URL
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+     person + "&api_key=dc6zaTOxFJmzC&limit=10";
+  console.log(queryURL);
+
+  // Make API request
+  d3.json(queryURL, function(error, response) {
+
+    // Handle errors
+    if (error) return console.warn(error);
+
+    // Grab response
+    var results = response.data;
+    console.log(results);
+    
+    // Loop through response
+    for (var i = 0; i < results.length; i++) {
+      if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
+        // Rating
+        var rating = results[i].rating;
+        console.log(rating);
+
+        // Image
+        var image = results[i].images.fixed_height.url;
+        console.log(image);
+        
+        // append a div with class item
+        var gifDiv = d3.select("#gifs-appear-here").append("div").attr("class", "item")
+        
+        // Append a paragraph with rating
+        gifDiv.append("p").text("Rating " + rating);
+        
+        // Append an image to div
+        gifDiv.text("Rating: "+rating).append("img").attr("src", image);
+
+      }
+    }
+  });
+});
+  </script>
+</body>
+
+</html>
