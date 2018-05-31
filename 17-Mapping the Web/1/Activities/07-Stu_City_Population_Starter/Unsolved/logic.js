@@ -5,9 +5,10 @@ var myMap = L.map("map", {
 });
 
 // Adding tile layer
-L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
-  "access_token=pk.eyJ1Ijoia2pnMzEwIiwiYSI6ImNpdGRjbWhxdjAwNG0yb3A5b21jOXluZTUifQ." +
-  "T6YbdDixkOBWH_k9GbS8JQ").addTo(myMap);
+L.tileLayer(
+  'https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?' +
+    'access_token=pk.eyJ1Ijoia2VuaiIsImEiOiJjamh0dzdkN3QwaTVlM3ZqeGV2bmxhZ2l5In0.8yQjbyHuvT9HuCILiyEjew',
+).addTo(myMap);
 
 // An array containing each city's name, location, and population
 var cities = [
@@ -41,7 +42,7 @@ var cities = [
 // Loop through the cities array and create one marker for each city, bind a popup containing its name and population and add it to the map
 for (var i = 0; i < cities.length; i++) {
   var city = cities[i];
-  L.marker(city.location)
+  L.circle(city.location, {radius:90000})
     .bindPopup("<h1>" + city.name + "</h1> <hr> <h3>Population " + city.population + "</h3>")
     .addTo(myMap);
 }

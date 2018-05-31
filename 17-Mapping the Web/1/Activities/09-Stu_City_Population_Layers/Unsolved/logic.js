@@ -95,26 +95,35 @@ for (var i = 0; i < locations.length; i++) {
 
 // light map tiles
 L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
-  "access_token=pk.eyJ1Ijoia2pnMzEwIiwiYSI6ImNpdGRjbWhxdjAwNG0yb3A5b21jOXluZTUifQ." +
+  "access_token=pk.eyJ1Ijoia2VuaiIsImEiOiJjamh0dzdkN3QwaTVlM3ZqeGV2bmxhZ2l5In0.8yQjbyHuvT9HuCILiyEjew" +
   "T6YbdDixkOBWH_k9GbS8JQ");
 
 // dark map tiles
 L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?" +
-  "access_token=pk.eyJ1Ijoia2pnMzEwIiwiYSI6ImNpdGRjbWhxdjAwNG0yb3A5b21jOXluZTUifQ." +
+  "access_token=pk.eyJ1Ijoia2VuaiIsImEiOiJjamh0dzdkN3QwaTVlM3ZqeGV2bmxhZ2l5In0.8yQjbyHuvT9HuCILiyEjew" +
   "T6YbdDixkOBWH_k9GbS8JQ");
 
 // Create two separate layer groups below. One for city markers, and one for states markers
+var cityLayer = L.layerGroup(cityMarkers);
 
 // Create a baseMaps object to contain the streetmap and darkmap
-
+var baseMaps = {
+  Light: light,
+  Dark: dark,
+};
 // Create an overlayMaps object here to contain the "State Population" and "City Population" layers
+var overlayMaps = {
+  Cities: cityLayer,
+};
 
 // Modify the map so that it will have the streetmap, states, and cities layers
 L.map("map", {
   center: [
     37.09, -95.71
   ],
-  zoom: 5
+  zoom: 5,
+  layers: [light, cityLayer]
 });
 
 // Create a layer control, containing our baseMaps and overlayMaps, and add them to the map
+L.control.layers(baseMaps, overlayMaps).addTo(myMap);
