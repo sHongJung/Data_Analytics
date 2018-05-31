@@ -3,7 +3,7 @@
 // This gets inserted into the div with an id of 'map'
 var myMap = L.map('map', {
   center: [45.52, -122.67],
-  zoom: 13,
+  zoom: 5,
 });
 
 // Adding a tile layer (the background map image) to our map
