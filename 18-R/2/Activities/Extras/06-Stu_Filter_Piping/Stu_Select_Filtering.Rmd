@@ -1,0 +1,38 @@
+---
+title: "Super Cereal"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r Read Data in, include=FALSE, message=FALSE}
+cereal.tb <- read_csv("./cereals.csv")
+```
+
+```{r Select Columns, echo=FALSE}
+cereal2.tb <- cereal.tb %>%
+  select(-rating, -contains("ium"))
+```
+
+```{r Filter Challenge1}
+cereal2.tb %>%
+  filter(type=="H")
+```
+
+```{r Filter challenge2}
+cereal2.tb %>%
+  filter(mfr %in% c("A", "N", "Q", "R"))
+```
+
+```{r Filter Challenge3, include=TRUE}
+cereal2.tb %>%
+  filter(calories < 100 & fiber >= 3)
+```
+
+```{r Filter Challenge4, include=TRUE}
+cereal2.tb %>%
+  filter(sugars > 11 | fat > 3)
+```

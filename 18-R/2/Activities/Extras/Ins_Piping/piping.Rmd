@@ -1,0 +1,74 @@
+---
+title: "pipe"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data(diamonds, package='ggplot2')
+```
+
+### Preview the first five rows
+```{r}
+head(diamonds)
+```
+### Using the pipe (%>%) operator
+```{r}
+# Keyboard shortcut is Ctrl+Shift+M (Cmd+Shift+M in Macs)
+# Preview the first five rows using pipes
+diamonds %>% head(5)
+```
+
+### Select columns
+```{r}
+select(diamonds, carat, color, price)
+```
+
+### Use piping to select columns
+```{r}
+diamonds %>% select(carat, price)
+```
+
+### Filter rows for data
+```{r}
+filter(diamonds, cut=='Premium')
+```
+
+### Filter using piping
+```{r}
+diamonds %>% filter(cut=='Premium')
+```
+
+### Filter for multiple conditions
+```{r}
+diamonds %>% filter(cut=='Premium' & carat > 0.30)
+```
+### Group by cuts, then summarize the mean price by cut
+```{r}
+cut_group <- group_by(diamonds, cut)
+summarize(cut_group, mean(price))
+```
+
+### Use pipes to group by cuts, then summarize the mean price by cut
+```{r}
+diamonds %>% group_by(cut) %>% summarise(mean(price))
+```
+
+### In addition to the above, return total price by cut
+```{r}
+diamonds %>% 
+  group_by(cut) %>% 
+  summarize(mean(price), sum(price))
+```
+### A nested, messier version that accomplishes the same task
+```{r}
+summarize(group_by(diamonds, cut), mean(price), sum(price))
+```
+

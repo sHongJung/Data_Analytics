@@ -1,0 +1,70 @@
+---
+title: "Grouping data to Summarise"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r Read Data In, include=FALSE}
+minerals.tb <- read_csv("minerals.csv")
+```
+
+```{r Change and add columns, include=TRUE}
+minerals2.tb <- minerals.tb %>% mutate(
+  Mass = Mass/2,
+  Value.Density = Appraisal/Mass,
+  Log10.Value.Density = log10(Value.Density)
+)
+
+minerals2.tb %>%
+  select(Value.Density, Log10.Value.Density, everything())
+```
+
+```{r Groupby then mutate, include=TRUE}
+ranked.minerals <- minerals2.tb %>% 
+  mutate(Value.Position.Overall = min_rank(desc(Value.Density))) %>%
+  group_by(Major.Min.Comp) %>%
+  mutate(Value.Position.by.Major=min_rank(desc(Value.Density)))
+
+ranked.minerals %>%
+  select(Value.Position.by.Major, Value.Position.Overall, Value.Density, everything()) %>%
+  arrange(desc(Value.Density)) %>%
+  filter(Value.Position.by.Major==1)
+  # filter(Value.Position.Overall==1)
+```
+
+```{r Custom Summary, include=True}
+minerals.tb %>%
+  summarise(Mass.Sum=sum(Mass),
+            Mass.Mean=mean(Mass),
+            Mass.SD=sd(Mass),
+            Mass.Median=median(Mass),
+            Mass.CoV=Mass.SD/Mass.Mean,
+            Value.All=sum(Appraisal),
+            Count=n())
+```
+
+```{r Grouped Custom Summaries}
+minerals.tb %>%
+  filter(Major.Min.Comp %in% c("DIAMOND", "SILVER", "PLATINUM")) %>%
+  group_by(Major.Min.Comp) %>%
+  summarise(Mean.Mass=mean(Mass),
+            Total.Mass=sum(Mass),
+            Distinct.Minor.Mineral1=n_distinct(Minor.Min.Comp1),
+            Distinct.Minor.Mineral2=n_distinct(Minor.Min.Comp2),
+            Distinct.Minor.Mineral.All=n_distinct(c(Minor.Min.Comp1,Minor.Min.Comp2)),
+            Sample.Count=n())
+```
+
+```{r Mutiple Groupings, include=TRUE}
+minerals.tb %>%
+  filter(Major.Min.Comp %in% c("NEPTUNITE", "KUNZITE", "GAYLUSSITE", "CUBANITE")) %>%
+  group_by(Minor.Min.Comp1, Major.Min.Comp) %>%
+  summarise(Sample.Count = n(),
+            Total.Value = sum(Appraisal),
+            Total.Mass = sum(Mass),
+            Value.Density = Total.Value/Total.Mass)
+```

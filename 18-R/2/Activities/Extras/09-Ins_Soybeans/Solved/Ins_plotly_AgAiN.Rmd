@@ -1,0 +1,36 @@
+---
+title: "GE Soybean Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(plotly)
+```
+
+```{r Read in Data, include=FALSE, message=FALSE}
+resistant.tb <- read_tsv("Herbicide_resistant_soybeans.tsv")
+```
+
+```{r GE Soy Gathering}
+gathered.res.tb <- resistant.tb %>%
+  #gather(Year, Percent.GE.Soybean, -State, -("2000"))
+  gather(Year, Percent.GE.Soybean, -State)
+
+gathered.res.tb
+```
+
+```{r GE Soy Plotting}
+gathered.res.tb %>%
+  plot_ly(x=~Year, 
+          y=~Percent.GE.Soybean, 
+          type='scatter', 
+          mode = 'lines+markers', 
+          color=~State,
+          alpha=0.5,
+          text=~paste("Year: ", Year, "<br>",
+                      "Percent GE Soybean: ", Percent.GE.Soybean, "<br>",
+                      "State: ", State))
+```

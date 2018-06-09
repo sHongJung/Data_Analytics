@@ -1,0 +1,63 @@
+---
+title: "Cotton GE Crops"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(plotly)
+```
+
+```{r Read Data, include=FALSE}
+cotton.tb <- read_tsv("GE_Cotton.tsv")
+```
+
+```{r Gather Data, include=TRUE}
+gathered.cotton.tb <- cotton.tb %>%
+  gather(key = Year,
+         value = Percent.GMO,
+         -c(State, `GMO Type`))
+gathered.cotton.tb
+```
+
+```{r Insect Resistant, include=TRUE}
+ins_resist <- gathered.cotton.tb %>% 
+  filter(`GMO Type`=="Insect-resistant (Bt) only")
+```
+
+```{r Herbicide Tolerant Tibble, include=TRUE}
+herb_tol <- gathered.cotton.tb %>%
+  filter(`GMO Type`=="Herbicide-tolerant only")
+```
+
+```{r Create Plots, include=TRUE}
+ins_plot <- ins_resist %>%
+  plot_ly(x=~Year, 
+          y=~Percent.GMO, 
+          type='scatter', 
+          mode = 'lines+markers', 
+          color=~State,
+          alpha=0.5,
+          legendgroup=~State,
+          showlegend=F,
+          text="Insect Resistant")
+
+herb_plot <- herb_tol %>%
+  plot_ly(x=~Year, 
+        y=~Percent.GMO, 
+        type='scatter', 
+        mode = 'lines+markers', 
+        color=~State,
+        alpha=0.5,
+        legendgroup=~State,
+        text="Herbicide Resistant")
+```
+
+```{r Create Subplots, include=TRUE}
+subplot(ins_plot, 
+        herb_plot, 
+        nrows=2, 
+        shareX = TRUE) %>%
+  layout(title="GMO Cotton by State",
+         margin = list(b=55))
+```
