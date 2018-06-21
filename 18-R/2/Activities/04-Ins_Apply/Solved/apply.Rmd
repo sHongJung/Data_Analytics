@@ -50,4 +50,6 @@ fahrenheit2
 fahrenheit3 <- lapply(celsius, toFahrenheit)
 fahrenheit3
 ```
+'''{r}
 
+'''

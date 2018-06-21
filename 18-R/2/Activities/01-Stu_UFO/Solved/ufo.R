@@ -19,11 +19,11 @@ ufo %>%
 # Number of sightings by state
 ufo %>% 
   group_by(state) %>% 
-  summarise(number.sightings = n()) %>% 
-  arrange(desc(number.sightings))
+  summarise(counts.sightings = n()) %>% 
+  arrange(desc(counts.sightings))
 
 # Number of sightings by shape of UFO
 ufo %>% 
-  group_by(shape) %>% 
-  summarise(shape.count = n()) %>% 
-  arrange(desc(shape.count))
+  group_by(state, shape) %>% 
+  summarize(counts = n()) %>% 
+  arrange(desc(counts))

@@ -49,6 +49,7 @@ student_count
 ```{r}
 mean_reading_score <- summarize(students, mean(reading_score))
 mean_math_score <- summarize(students, mean(math_score))
+students %>% head()
 ```
 ### Calculate the percentage of students with passing reading scores, i.e. over 70%.
 ```{r}
@@ -108,6 +109,9 @@ paste("Overall passing rate: ", overall_passing_rate)
 ### Use sapply() to convert data type
 ```{r}
 # YOUR CODE HERE
+data3 <- sapply()
+
+
 ```
 
 ### Create Tibble of District Summary
