@@ -2,6 +2,11 @@ import os
 from flask import Flask, request, jsonify
 
 from keras.preprocessing import image
+from keras.models import Sequential
+from keras.utils import to_categorical
+from keras.layers import Dense
+from keras.datasets import mnist
+
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'Uploads'
@@ -28,18 +33,25 @@ def upload_file():
         if request.files.get('file'):
             # read the file
             # @TODO: YOUR CODE HERE!
+            file = request.files['file']
 
             # read the filename
             # @TODO: YOUR CODE HERE!
+            filename = file.filename
 
             # create a path to the uploads folder
             # @TODO: YOUR CODE HERE!
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 
             # Save the file to the uploads folder
             # @TODO: YOUR CODE HERE!
+            file.save(filepath)
 
             # Load the saved image using Keras and resize it to the mnist format of 28x28 pixels
             # @TODO: YOUR CODE HERE!
+            image_size = (28, 28)
+            im = image.load_img(filepath, target_size=image_size, grayscale = True)
+
 
             # Convert the 2D image to an array of pixel values
             image_array = prepare_image(im)
