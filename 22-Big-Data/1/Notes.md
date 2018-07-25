@@ -75,7 +75,7 @@ Next, you'll need to have the Java JDK installed for some of the work we'll be d
 * Given a Spark `DataFrame`, we can show the data in that DataFrame using the `.show()` method.
 * The `.withColumn()` method enables us to add new columns, or replace existing ones.
 * If you've performed some computation and want to convert the grouped / summarized results into a Pandas DataFrame, you can use the `toPandas()` method. Note that you should only do this for smaller DataFrames (otherwise you might create a DataFrame that's GB in size)
-* [A good reference on the company that primariy develops Spark](https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html)
+* [A good reference on the company that primarily develops Spark](https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html)
 
 #### Students Do - Spark DataFrames (15 min)
 
